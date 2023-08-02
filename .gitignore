@@ -1,8 +1,0 @@
-**/._*
-**._.*
-.project
-.classpath
-/bin
-*.class
-.metadata
-.settings
