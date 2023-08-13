@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Volumes/Seagate/projeto-spring-boot3/course/src"/>
 			<item value="/Volumes/Seagate/projeto-spring-boot3/course"/>
 		</list>
 		<list key="projectNameTemplate">
