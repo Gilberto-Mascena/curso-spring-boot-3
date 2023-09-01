@@ -7,7 +7,6 @@ import java.util.Objects;
 import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.gilberto.course.entities.enums.OrderItem;
 import com.gilberto.course.entities.enums.OrderStatus;
 
 import jakarta.persistence.Entity;

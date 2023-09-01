@@ -1,11 +1,9 @@
-package com.gilberto.course.entities.enums;
+package com.gilberto.course.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.gilberto.course.entities.Order;
-import com.gilberto.course.entities.Product;
 import com.gilberto.course.entities.pk.OrderItemPK;
 
 import jakarta.persistence.EmbeddedId;
@@ -41,7 +39,7 @@ public class OrderItem implements Serializable{
 	
 	public void setOrder(Order order) {
 		id.setOrder(order);
-	}
+	}	
 	
 	public Product getProduct() {
 		return id.getProduct();

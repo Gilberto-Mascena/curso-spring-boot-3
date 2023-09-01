@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Profile;
 
 import com.gilberto.course.entities.Category;
 import com.gilberto.course.entities.Order;
+import com.gilberto.course.entities.OrderItem;
 import com.gilberto.course.entities.Product;
 import com.gilberto.course.entities.User;
-import com.gilberto.course.entities.enums.OrderItem;
 import com.gilberto.course.entities.enums.OrderStatus;
 import com.gilberto.course.repositories.CategoryRepository;
 import com.gilberto.course.repositories.OrderItemRepository;
