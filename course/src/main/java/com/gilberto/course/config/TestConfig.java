@@ -22,7 +22,7 @@ import com.gilberto.course.repositories.ProductRepository;
 import com.gilberto.course.repositories.UserRepository;
 
 @Configuration
-@Profile("test")
+@Profile("prod")
 public class TestConfig implements CommandLineRunner {
 
 	@Autowired
